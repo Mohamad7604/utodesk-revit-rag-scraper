@@ -1,11 +1,17 @@
 ﻿# Autodesk Revit RAG Scraper
 
-Local RAG pipeline for Revit 2024 docs (Selenium scraper + Weaviate + Ollama).
+Local RAG pipeline for **Revit 2024** docs: Selenium scraper → chunk & ingest into **Weaviate** → query via **Ollama** → optional **Gradio** UI.
 
-## Quick start
-1. Create & activate venv: .venv\Scripts\activate
-2. pip install -r requirements.txt
-3. Start Weaviate (docker-compose) and Ollama.
-4. Run ingestion in src/ then start the UI.
+> ⚠️ Secrets are stored in .env and are **not committed**. Heavy/runtime folders (weaviate-data, models) are ignored.
 
-> Do **not** commit .env, models/, weaviate-*/ — they’re ignored.
+---
+
+## Features
+- Selenium scraper for Autodesk Revit tutorials/docs
+- Chunking (hierarchical / by tokens) and quality checks
+- Weaviate ingestion (HTTP or embedded)
+- Retrieval (hybrid or semantic) + LLM answer with sources
+- Simple Gradio UI (ui_gradio.py) and CLI utilities
+
+## Repo layout
+
