@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+
+# App / data you shouldn't version
+weaviate-data/
+weaviate-embedded-data/
+models/
+
+# Misc
+*.bak*

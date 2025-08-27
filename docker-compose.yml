@@ -1,0 +1,29 @@
+﻿version: "3.8"
+
+services:
+  weaviate:
+    image: semitechnologies/weaviate:1.25.6
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      QUERY_DEFAULTS_LIMIT: "20"
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+      DEFAULT_VECTORIZER_MODULE: "text2vec-transformers"
+      ENABLE_MODULES: "text2vec-transformers,bm25"
+      TRANSFORMERS_INFERENCE_API: "http://t2v-transformers:8080"
+    volumes:
+      - ./weaviate-data:/var/lib/weaviate
+
+  # Local embedding server (runs SentenceTransformers inside the container)
+  t2v-transformers:
+    image: semitechnologies/transformers-inference:sentence-transformers-all-MiniLM-L6-v2
+    restart: unless-stopped
+    environment:
+      ENABLE_CUDA: "0"   # set "1" if you have CUDA and want GPU
+    ports:
+      - "8090:8080"
+    # (optional) persist model weights:
+    volumes:
+      - ./models:/models

@@ -1,0 +1,68 @@
+﻿toc_title,title,url,n_video_links,has_error,error
+Online Training,,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-7A67B490-0000-4BCE-8D11-C0E237EBEDD6,0,True,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcaffc3+65331]
+	GetHandleVerifier [0x0xcb0004+65396]
+	(No symbol) [0x0xaa3f63]
+	(No symbol) [0x0xaec99e]
+	(No symbol) [0x0xaecd3b]
+	(No symbol) [0x0xb353d2]
+	(No symbol) [0x0xb11524]
+	(No symbol) [0x0xb32bcb]
+	(No symbol) [0x0xb112d6]
+	(No symbol) [0x0xae0910]
+	(No symbol) [0x0xae1784]
+	GetHandleVerifier [0x0xef38b3+2439203]
+	GetHandleVerifier [0x0xeeeae2+2419282]
+	GetHandleVerifier [0x0xcd712a+225434]
+	GetHandleVerifier [0x0xcc6e08+159096]
+	GetHandleVerifier [0x0xccdd5d+187597]
+	GetHandleVerifier [0x0xcb7ad8+96840]
+	GetHandleVerifier [0x0xcb7c62+97234]
+	GetHandleVerifier [0x0xca277a+9962]
+	BaseThreadInitThunk [0x0x76b25d49+25]
+	RtlInitializeExceptionChain [0x0x7718d2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7718d281+561]"
+Get Started,Get Started,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-C3DEF8F6-A9C0-496E-A554-8147B12A4EDA,1,False,
+Revit Analytics Program,,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-3F42D45E-9FCF-4E8D-9B9E-41194E61F637,1,False,
+Beginner Workflows,Beginner Workflows,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-A0BF49CF-024A-42C6-BDD7-2471BE5C8116,1,False,
+Industry Workflows,Industry Workflows,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-817640B2-B537-40CD-9B51-FF2E5A9D7BA0,1,False,
+Cloud Services,Cloud Services,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-EF3E9E21-7C9F-4B31-9087-A5307A20C7DC,1,False,
+Creating Models,Creating Models,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-D4F1C903-5BA3-439A-8884-E12AC42DB472,1,False,
+Opening Files,Opening Files,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-E7EB9EDD-4167-4F64-9688-D7E7B7934806,1,False,
+Saving Files,Saving Files,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-A00D1018-6D25-40C9-8B58-D051830C59B0,1,False,
+Licensing,,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-9AEF943B-ADC3-499A-A6A6-19ECCA72E545,1,False,
+Sample Files,Sample Files,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-7B9C7A69-1083-406D-A01F-53D405C167F3,1,False,
+Revit Fundamentals,Revit Fundamentals,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-03565843-BB48-4707-B54C-39D6E8E51880,2,False,
+Essential Skills,Essential Skills,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-7F8CFFA4-22CB-43CA-84EA-332A27A0A0F0,2,False,
+Autodesk for Government,Autodesk for Government,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-EB6FD318-5C32-475C-93F8-8DEB083CBCE0,2,False,
+Tutorials,,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-9E9688A2-0645-4F8E-9D96-F1B76291A6C6,3,False,
+Part 1: Create a Project and Add Levels,Part 1: Create a Project and Add Levels,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-0E2A8A8C-2F02-46A4-9761-A47601F0B17A,3,False,
+Part 2: Create Walls,Part 2: Create Walls,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-30D3A26F-42FF-40FA-83D2-B43EA67F3ECD,3,False,
+Part 3: Create a Terrain and Building Pad,Part 3: Create a Terrain and Building Pad,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-E325CDE7-5468-43C8-BEAD-EC5AF13231F0,3,False,
+Part 4: Create a Floor,Part 4: Create a Floor,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-02936CA2-FE9E-4625-A2A6-A45324937847,3,False,
+Part 5: Create a Roof,Part 5: Create a Roof,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-5924644F-C73E-4B76-897D-B181EE9F1B16,3,False,
+Part 6: Place Doors,Part 6: Place Doors,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-6CA4C036-034D-4410-A3AB-5CBC492C3A83,3,False,
+Part 7: Place Windows,Part 7: Place Windows,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-27E9FE5D-6B1D-407C-9DBA-36D61F301DAF,3,False,
+Part 8: Place a Curtain Wall,Part 8: Place a Curtain Wall,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-8942AAB6-60C0-469A-8C39-5950E3B96716,3,False,
+Part 9: Create Stairs and Railings,Part 9: Create Stairs and Railings,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-82E544DF-E250-4F7C-BE5A-4E83989F85E7,3,False,
+Part 10: Create Views,Part 10: Create Views,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-7E3C0DFA-C599-42A6-B1BA-3C5ECE889999,3,False,
+Part 11: Add Dimensions,Part 11: Add Dimensions,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-075D4717-CF41-49A5-872D-E21AD013D2B0,3,False,
+Part 12: Add Notes,Part 12: Add Notes,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-34B3936F-5A4F-42B3-92C1-A382C26B4313,3,False,
+Part 13: Create Sheets,Part 13: Create Sheets,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-85E4E7D8-B98B-462C-8725-CC76E802DDB5,3,False,
+User Interface,User Interface,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-3197A4ED-323F-4D32-91C0-BA79E794B806,4,False,
+Video Gallery,Video Gallery,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-6419C9CE-F12D-4A6B-9677-949F186D9546,13,False,
+Tutorial Videos,Tutorial Videos,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-5F030511-89D1-4223-B168-CE83343FDE52,15,False,
+Video: Create a Project and Add Levels,Video: Create a Project and Add Levels,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-3B3190C6-94CA-4C44-8EB9-C684A02DBB49,16,False,
+Video: Create Walls,Video: Create Walls,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-F0889711-DC78-47FB-8747-9DC408CBEDA2,16,False,
+Video: Create Terrain and Building Pad,Video: Create Terrain and Building Pad,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-BD22FE68-5DDC-4E17-8528-AE0BC868A372,16,False,
+Video: Create a Floor,Video: Create a Floor,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-C7E5CEA9-D741-4829-B39E-73BE40FC4B7E,16,False,
+Video: Create a Roof,Video: Create a Roof,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-DCA3C942-1284-4FC9-BC06-144DE88C2EFA,16,False,
+Video: Place Doors,Video: Place Doors,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-EDD3FFB6-28D2-40D6-A8F0-D5E6C2807302,16,False,
+Video: Place Windows,Video: Place Windows,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-15BBE1F7-38FD-4AA0-ADA4-CE8923343DC1,16,False,
+Video: Place a Curtain Wall,Video: Place a Curtain Wall,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-96F003AD-5559-479F-91F3-263A0E8A7D8A,16,False,
+Video: Create Stairs and Railings,Video: Create Stairs and Railings,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-842A4DB6-4CA1-4ECD-9009-962769FFB19C,16,False,
+Video: Create Views,Video: Create Views,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-6BFB71DA-BCE6-4623-8ECD-D378E1C9C7F7,16,False,
+Video: Add Dimensions,Video: Add Dimensions,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-6573039B-9E1A-45E5-B625-7E02ACC38FF1,16,False,
+Video: Add Notes,Video: Add Notes,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-06AFD15B-1C06-4F7B-9A84-673AD222C2D2,16,False,
+Video: Create Sheets,Video: Create Sheets,https://help.autodesk.com/view/RVT/2024/ENU/?guid=GUID-267C7626-F0B4-444A-9593-A3FB101C4F21,16,False,
